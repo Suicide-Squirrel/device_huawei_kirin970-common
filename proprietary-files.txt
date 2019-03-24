@@ -1941,3 +1941,8 @@ emui/base/global/ons.bin:ons.bin
 # SmartDisplay
 lib/libhwsmartdisplay_jni.so
 lib64/libhwsmartdisplay_jni.so
+
+# Turbo
+etc/permissions/privapp-permissions-turbo.xml
+etc/sysconfig/turbo.xml
+-priv-app/Turbo.apk

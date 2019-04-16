@@ -18,3 +18,6 @@ allow system_server sysfs_zram:lnk_file rw_file_perms;
 
 # Allow system_server to read inside /sys
 allow system_server sysfs:file r_file_perms;
+
+# Allow system_server to write dalvik cache
+allow system_server dalvikcache_data_file:file { execute write };

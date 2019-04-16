@@ -29,3 +29,6 @@ allow init sysfs_led:file setattr;
 
 # Allow init to mount adbd binary
 allow init rootfs:file mounton;
+
+# Allow init to get/set raw security context values unknown to the current policy
+allow init self:capability2 mac_admin;

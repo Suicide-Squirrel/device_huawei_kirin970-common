@@ -1,0 +1,10 @@
+# Allow system apps to read write bpf
+# (high-performance network filtering)
+allow system_app fs_bpf:dir r_dir_perms;
+
+# Allow system apps to examine the page tables and 
+# related information by reading files in /proc
+allow system_app proc_pagetypeinfo:file r_file_perms;
+
+# Allow system apps access to read zram size     
+allow system_app sysfs_zram:lnk_file r_file_perms;

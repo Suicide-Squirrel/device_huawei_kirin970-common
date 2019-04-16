@@ -1,0 +1,2 @@
+# Allow 3rd party apps to have read access inside /data/misc/zoneinfo
+allow untrusted_app_27 proc_zoneinfo:file r_file_perms;

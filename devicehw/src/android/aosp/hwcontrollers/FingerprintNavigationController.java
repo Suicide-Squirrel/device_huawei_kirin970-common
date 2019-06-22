@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package co.aoscp.hwcontrollers;
+package android.aosp.hwcontrollers;
 
 import android.util.Log;
 

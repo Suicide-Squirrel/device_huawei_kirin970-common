@@ -1,0 +1,12 @@
+[
+  {
+    "repository":  "device_generic_common",
+    "target_path": "device/generic/common",
+    "remote":      "aosp"
+  },
+  {
+    "repository":  "proprietary_vendor_huawei",
+    "target_path": "vendor/huawei",
+    "remote":      "pixel"
+  }
+]
